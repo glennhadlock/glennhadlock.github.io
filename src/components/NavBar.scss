@@ -1,0 +1,51 @@
+@import "../sass/styles.scss";
+
+.nav-bar {
+  @include col-grid(3fr 1fr);
+  min-height: $navbar-height;
+  height: $navbar-height;
+  max-height: fit-content;
+  background-color: var(--bg1);
+  filter: drop-shadow(0px 0px 5px #00000044);
+  .links {
+    @include h-stack-c;
+    justify-content: space-evenly;
+    align-items: center;
+    .link {
+      .icon {
+        @include r-mar;
+        font-size: $txt-lg;
+        vertical-align: middle;
+      }
+      .text {
+        vertical-align: middle;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .title {
+    font-family: $font2;
+    color: var(--border);
+    align-self: center;
+    width: fit-content;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: $txt-lg;
+    text-align: center;
+  }
+  @include desktop-down {
+    .title {
+      @include r-mar($gap-lg);
+      font-size: $txt-md;
+    }
+    .link {
+      .icon {
+        font-size: $txt-xl;
+      }
+      .text {
+        display: none;
+      }
+    }
+  }
+}

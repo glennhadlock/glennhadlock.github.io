@@ -1,0 +1,54 @@
+@import "../../sass/styles.scss";
+
+.generic-view {
+  .title {
+    @include pad($gap-xl);
+    font-size: $txt-lg;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .banner {
+    @include b-mar($gap-xl);
+    height: 200px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    .bg {
+      position: absolute;
+      -o-object-fit: cover;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      top: 50%;
+      left: 50%;
+      translate: -50% -50%;
+      z-index: 2;
+    }
+    .fg {
+      @include stack;
+      background: linear-gradient(0deg, var(--mask-dark), var(--mask-light));
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+      justify-content: center;
+      align-items: center;
+      .title {
+        @include stack;
+        @include center;
+        font-family: $font3;
+        text-transform: capitalize;
+        position: relative;
+        vertical-align: center;
+        font-size: $txt-xxl;
+        color: var(--neg-txt);
+      }
+    }
+  }
+  .content {
+    @include vh-pad($gap-ml, $gap-lg);
+    @include v-stack-c;
+    max-width: 850px;
+  }
+}

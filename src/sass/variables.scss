@@ -1,0 +1,70 @@
+/* font */
+
+/* palette */
+
+:root {
+  --bg1: #f7f7f7;
+  --mask-dark: #00000033;
+  --mask-light: #00000099;
+  --bg1trans: #f7f7f730;
+  --bg2: #efefef;
+  --bg2trans: #efefeff8;
+  --bg3: #dedede;
+  --bg4: #cfcfcf;
+  --border: #374654;
+  --outline: #87c5ff;
+  --txt: #313131;
+  --neg-txt: #e4e4e4;
+  --primary: #4e618f;
+  --secondary: #496ebf;
+  --highlight: #faa71d;
+  --danger: #e55454;
+  --danger-hl: #bf4928;
+  --bg-hl: #f7f7f7;
+  --bg-sel: #d8d8d8;
+  --inactive: #6b6b6b;
+  --glow: #fff4a377;
+
+  --null-status: #d16767;
+  --initial-status: var(--highlight);
+  --transitional-status: #446aa3;
+  --terminal-status: #61ca80;
+}
+
+/* fonts */
+$font1: "Oxygen", "Quicksand", "Open Sans", "Raleway", "Arial", sans-serif;
+$font2: 'Cinzel', serif;
+$font3: 'Marcellus SC', serif;
+
+/* sizes */
+$gap-xs: 1px;
+$gap-sm: 2.5px;
+$gap-md: 5px;
+$gap-ml: 7px;
+$gap-lg: 10px;
+$gap-xl: 15px;
+$gap-xxl: 25px;
+
+$txt-xs: 8px;
+$txt-sm: 10px;
+$txt-ms: 13px;
+$txt-md: 15px;
+$txt-ml: 18px;
+$txt-lg: 24px;
+$txt-xl: 30px;
+$txt-xxl: 40px;
+
+$border-sm: 1px;
+$border-md: 1.5px;
+$border-ml: 3px;
+$border-lg: 5px;
+$border-xl: 10px;
+
+$radius-sm: 2.5px;
+$radius-md: 5px;
+
+$grow: 1.025;
+
+$work-img-size: 225px;
+
+$navbar-height: 80px;
