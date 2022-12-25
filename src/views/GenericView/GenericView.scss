@@ -51,4 +51,14 @@
     @include v-stack-c;
     max-width: 850px;
   }
+  .gmap {
+    @include v-mar($gap-xl);
+    @include round;
+    height: 400px;
+    width: 100%;
+  }
+  table {
+    border-spacing: $gap-xl;
+    vertical-align: top;
+  }
 }
