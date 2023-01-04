@@ -8,7 +8,7 @@ export default function GenericView(props) {
         <div className="fg">
           <h1 className="title">{title}</h1>
         </div>
-        <img className="bg" src={banner} alt={title} />
+        {/* <img className="bg" src={banner} alt={title} /> */}
       </div>
       <div className="content">{children}</div>
     </div>
