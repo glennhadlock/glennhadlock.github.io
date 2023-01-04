@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/glennhadlock/static/css/main.fc66a7e3.css",
+    "main.js": "/glennhadlock/static/js/main.779fbd42.js",
+    "static/js/787.55805c99.chunk.js": "/glennhadlock/static/js/787.55805c99.chunk.js",
+    "index.html": "/glennhadlock/index.html",
+    "main.fc66a7e3.css.map": "/glennhadlock/static/css/main.fc66a7e3.css.map",
+    "main.779fbd42.js.map": "/glennhadlock/static/js/main.779fbd42.js.map",
+    "787.55805c99.chunk.js.map": "/glennhadlock/static/js/787.55805c99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc66a7e3.css",
+    "static/js/main.779fbd42.js"
+  ]
+}
