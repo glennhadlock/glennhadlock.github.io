@@ -6,13 +6,13 @@ import getMedia from "../../utils/getMedia";
 
 export default function MainView() {
   return (
-    <GenericView title={"Glenn A. Hadlock, D.C. – Chiropractor"}>
+    <GenericView className="main-view" title={"Glenn A. Hadlock, D.C. – Chiropractor"}>
       <div className="main-view__image-container">
         <LazyLoadImage className="main-view__image-container__image" src={getMedia("glenn-ally.jpg")} />
         <span className="main-view__image-container__caption">Father-daughter team Glenn Hadlock, DC and Allison Hadlock, LMT</span>
       </div>
       <h3>Dr. Hadlock’s approach is simple:</h3>
-      <blockquote>“Help people to be able to do the things they love to do... pain free."</blockquote>
+      <blockquote className="main-view__blockquote">Help people to be able to do the things they love to do... pain free.</blockquote>
       <br />
       <MonthlyTopics />
       <br />

@@ -1,22 +1,28 @@
 @import "../../sass/styles.scss";
 
-.main-view__image-container {
-  max-width: 600px;
-  width: fit-content;
-  @include b-pad($gap-xl);
-  @include v-stack-c;
-  @include h-center;
-  height: auto;
-  gap: $gap-md;
-  .main-view__image-container__image {
-    @include round-border;
-    height: 100%;
-    width: 100%;
+.main-view {
+  .main-view__image-container {
+    max-width: 600px;
+    width: fit-content;
+    @include b-pad($gap-xl);
+    @include v-stack-c;
+    @include h-center;
+    height: auto;
+    gap: $gap-md;
+    .main-view__image-container__image {
+      @include round-border;
+      height: 100%;
+      width: 100%;
+    }
+    .main-view__image-container__caption {
+      text-align: center;
+      font-style: italic;
+      font-weight: lighter;
+      font-size: $txt-md;
+    }
   }
-  .main-view__image-container__caption {
-    text-align: center;
+  .main-view__blockquote {
+    font-size: $txt-lg;
     font-style: italic;
-    font-weight: lighter;
-    font-size: $txt-md;
   }
 }

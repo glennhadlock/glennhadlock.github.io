@@ -11,7 +11,10 @@ const MonthlyTopicLayout = ({ children, title }) => {
         <h2 className="monthly-topic-layout__header__title">{`${title}`.toLowerCase()}</h2>
       </div>
       <div className="monthly-topic-layout__content">{children}</div>
-      <p>Yours in good health, Dr. Glenn Hadlock</p>
+      <div className="monthly-topic-layout__footer">
+        <p>Yours in good health,</p>
+        <p>Dr. Glenn Hadlock</p>
+      </div>
     </div>
   );
 };
@@ -160,7 +163,6 @@ const MonthlyTopicsContainer = ({ children }) => {
     const numChildren = React.Children.count(children);
     const monthIndex = new Date().getMonth();
     const childIndex = monthIndex % numChildren;
-    console.log(childIndex);
     return children[childIndex];
   }
   return <div>{rotateComponentsByMonth()}</div>;
