@@ -28,8 +28,7 @@
     }
     .fg {
       @include stack;
-      // background: linear-gradient(0deg, var(--mask-dark), var(--mask-light));
-      background: var(--p2s-gradient);
+      background: var(--mixed-gradient);
       position: absolute;
       width: 100%;
       height: 100%;

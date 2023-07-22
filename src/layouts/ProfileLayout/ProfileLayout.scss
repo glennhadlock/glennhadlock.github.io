@@ -26,8 +26,11 @@
       @include h-stack-c;
       justify-content: center;
       .portrait-layout__text__header__name {
-        color: var(--primary);
+        @include text-gradient;
         font-weight: bold;
+      }
+      .portrait-layout__text__header__role {
+        font-weight: lighter;
       }
       .portrait-layout__text__header__name,
       .portrait-layout__text__header__role {
@@ -37,6 +40,10 @@
     .portrait-layout__text__bio {
       @include v-stack;
       gap: $gap-lg;
+      b {
+        color: var(--secondary2);
+        font-weight: bold;
+      }
     }
   }
 }
