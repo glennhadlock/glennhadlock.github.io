@@ -12,7 +12,7 @@
   overflow: auto;
   .footer {
     @include stack;
-    @include t-pad($gap-xxl);
+    @include pad($gap-xl);
     @include to-bottom;
     clip-path: polygon(0 0, 100% 30px, 100% 100%, 0 100%);
     align-items: center;
@@ -20,8 +20,8 @@
     min-height: 150px;
     width: 100%;
     background: var(--primary-gradient);
+    justify-content: center;
     * {
-      @include h-center;
       text-align: center;
       color: var(--txt-light);
       font-size: $txt-md;
