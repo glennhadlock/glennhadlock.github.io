@@ -12,13 +12,14 @@
   --bg3: #7dbd7a;
   --bg4: #91af98;
   --border: #184b2c;
-
   --outline: #87c5ff;
   --txt: #313131;
-  --txt: #f8f8f8;
+  --txt-light: var(--bg1);
+  // --txt: #f8f8f8;
   --neg-txt: #e4e4e4;
-  --primary: #2A5507;
-  --secondary: #687d33;
+  --primary: #233b0e;
+  --secondary: #3d1953;
+  --p2s-gradient: linear-gradient(90deg, var(--primary) 0%, var(--primary) 60%, var(--secondary) 90%, var(--secondary) 100%);
   --highlight: #faa71d;
   --danger: #e55454;
   --danger-hl: #bf4928;

@@ -26,6 +26,7 @@
       @include h-stack-c;
       justify-content: center;
       .portrait-layout__text__header__name {
+        color: var(--primary);
         font-weight: bold;
       }
       .portrait-layout__text__header__name,

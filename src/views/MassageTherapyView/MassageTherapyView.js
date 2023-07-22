@@ -8,7 +8,7 @@ const MassageTherapyView = () => {
       <LazyLoadImage className="massage-therapy-view__portrait" src="https://d2cqospqxtt8fw.cloudfront.net/glenn-hadlock/ally-small.jpg" />
       <p>Hello! I’m Allison and these are my twin stars! </p>
       <p>I am privileged to work as a Massage Therapist alongside my dad in his Chiropractic practice. My motto is </p>
-      <p>M O V E M E N T I N S T I L L N E S S </p>
+      <blockquote className="massage-therapy-view__motto">MOVEMENT IN STILLNESS</blockquote>
       <p>What does that mean to me? </p>
       <p>
         The body loves movement, that's why we feel so good when we exercise! Movement is what keeps our body in flow... from the flow of blood and

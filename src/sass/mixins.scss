@@ -266,3 +266,9 @@
   -webkit-animation: $name $dur ease-in-out 0s 1 normal forwards;
   animation: $name $dur ease-in-out 0s 1 normal forwards;
 }
+
+@mixin text-gradient($color1: var(--primary), $color2: var(--secondary)) {
+  background: -webkit-linear-gradient(left, $color1, $color2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

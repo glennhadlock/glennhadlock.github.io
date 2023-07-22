@@ -5,4 +5,11 @@
     @include stack;
     @include round-border;
   }
+  .massage-therapy-view__motto {
+    @include stack;
+    @include text-gradient;
+    font-size: $txt-lg;
+    width: 100%;
+    justify-content: center;
+  }
 }
