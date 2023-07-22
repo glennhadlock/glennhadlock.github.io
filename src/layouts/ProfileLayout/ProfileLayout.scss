@@ -1,0 +1,41 @@
+@import "../../sass/styles.scss";
+
+.portrait-layout {
+  @include v-stack;
+  gap: $gap-xxl;
+  align-items: center;
+  .portrait-layout__image-container {
+    @include stack;
+    @include round(100%);
+    @include border;
+    width: 100%;
+    max-width: 360px;
+    overflow: hidden;
+    .portrait-layout__image-container__image {
+      @include stack;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+  .portrait-layout__text {
+    @include v-stack;
+    @include h-pad($gap-xxl);
+    gap: $gap-lg;
+    .portrait-layout__text__header {
+      @include h-stack-c;
+      justify-content: center;
+      .portrait-layout__text__header__name {
+        font-weight: bold;
+      }
+      .portrait-layout__text__header__name,
+      .portrait-layout__text__header__role {
+        font-size: $txt-lg;
+      }
+    }
+    .portrait-layout__text__bio {
+      @include v-stack;
+      gap: $gap-lg;
+    }
+  }
+}

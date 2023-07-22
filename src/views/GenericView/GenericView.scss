@@ -50,6 +50,7 @@
     @include vh-pad($gap-ml, $gap-lg);
     @include v-stack-c;
     max-width: 850px;
+    gap: $gap-lg;
   }
   .gmap {
     @include v-mar($gap-xl);

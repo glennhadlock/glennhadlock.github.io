@@ -1,0 +1,8 @@
+@import "../../sass/styles.scss";
+
+.massage-therapy-view {
+  .massage-therapy-view__portrait {
+    @include stack;
+    @include round-border;
+  }
+}

@@ -1,5 +1,27 @@
 @import "../../sass/styles.scss";
 
-.montly-topic-layout {
+.monthly-topic-layout {
   @include v-stack;
+  gap: $txt-ml;
+  .monthly-topic-layout__header {
+    @include v-stack-c;
+    gap: $gap-md;
+    flex-wrap: wrap;
+    justify-content: center;
+    * {
+      text-align: center;
+    }
+    .monthly-topic-layout__header__prefix {
+      text-transform: capitalize;
+    }
+    .monthly-topic-layout__header__title {
+      font-weight: bold;
+      text-transform: capitalize;
+      font-size: $txt-lg;
+    }
+  }
+  .monthly-topic-layout__content {
+    @include v-stack;
+    gap: $txt-md;
+  }
 }

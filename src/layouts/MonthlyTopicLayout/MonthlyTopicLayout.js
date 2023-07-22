@@ -1,37 +1,16 @@
+import "./MonthlyTopicLayout.scss";
 import React from "react";
 
 const months = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
 
-const MonthlyTopics = () => {
-  return (
-    <MonthlyTopicsContainer>
-      <BackAndRibPainTopic />
-      <HeadachesTopic />
-      <NeckPainTopic />
-      <SciaticaTopic />
-    </MonthlyTopicsContainer>
-  );
-};
-
-const MonthlyTopicsContainer = ({ children }) => {
-  function rotateComponentsByMonth() {
-    const numChildren = React.Children.count(children);
-    const monthIndex = Math.floor(new Date().getSeconds() * 0.25);
-    const childIndex = monthIndex % numChildren;
-    console.log(childIndex);
-    return children[childIndex];
-  }
-  return <div>{rotateComponentsByMonth()}</div>;
-};
-
 const MonthlyTopicLayout = ({ children, title }) => {
   return (
     <div className="monthly-topic-layout">
-      <div>
-        <h1>topic of the month {months[new Date().getMonth() % 12]}</h1>
-        <h2>{title}</h2>
+      <div className="monthly-topic-layout__header">
+        <h1 className="monthly-topic-layout__header__prefix">tip of the month ({months[new Date().getMonth() % 12]}):</h1>
+        <h2 className="monthly-topic-layout__header__title">{`${title}`.toLowerCase()}</h2>
       </div>
-      {children}
+      <div className="monthly-topic-layout__content">{children}</div>
       <p>Yours in good health, Dr. Glenn Hadlock</p>
     </div>
   );
@@ -129,6 +108,62 @@ const SciaticaTopic = () => {
       </p>
     </MonthlyTopicLayout>
   );
+};
+
+const ShoulderTopic = () => {
+  return (
+    <MonthlyTopicLayout title="THE SHOULDER and the ROTATOR CUFF">
+      <p>
+        Shoulder problems, including pain, weakness and range of motion limitations, can be very detrimental to our ability to enjoy sports,
+        recreational activities or even perform tasks essential to our work or simple ADL’s (Activities of Daily Living). If you cannot reach up into
+        a cupboard to retrieve a can of food or cannot bring your tennis racquet above your head to strike the ball, life can be difficult and even
+        un-fun!
+      </p>
+      <p>
+        So, to keep things simple, I will describe how the shoulder works, some of the main muscles that are part of the shoulder and what the
+        “rotator cuff” actually is.
+      </p>
+      <p>
+        The “shoulder girdle” is a term that encompasses the bones, muscles and tendons that make up the shoulder area collectively. The shoulder
+        joint is unique in that – unlike most joints, having ligaments which couple one bone to another – the shoulder joint is held together with a
+        collective group of muscles known as the “rotator cuff.” So, this ‘cuff’ often thought of as one entity is actually four different muscles
+        that aid in moving the shoulder or upper arm in different directions. Of these four muscles, one is more likely to be torn and require
+        surgical repair. This muscle called ‘supraspinatus’ is responsible for the initial movement of lifting your arm away from your side (or rib
+        cage). Two muscles that are part of the shoulder – but not part of the rotator cuff – include the biceps muscle and deltoid muscle. The
+        deltoid muscle picks up where supraspinatus leaves off – lifting the upper arm high away from the rib cage in a motion known as abduction.
+      </p>
+      <p>
+        Understanding how to assess a shoulder injury properly, the reason for shoulder range of motion limitations and why pain is felt in various
+        locations of the shoulder, requires a certain skill set and level of experience to arrive at a proper diagnosis. Once diagnosed, a proper
+        course of action can be established with a goal of full recovery from the shoulder injury. In many cases, non-invasive treatment options –
+        provided in our clinic – can be employed successfully to get you back to the things you love to do, pain free, in a reasonable amount of time.{" "}
+      </p>
+      .
+    </MonthlyTopicLayout>
+  );
+};
+
+const MonthlyTopics = () => {
+  return (
+    <MonthlyTopicsContainer>
+      <BackAndRibPainTopic />
+      <HeadachesTopic />
+      <NeckPainTopic />
+      <SciaticaTopic />
+      <ShoulderTopic />
+    </MonthlyTopicsContainer>
+  );
+};
+
+const MonthlyTopicsContainer = ({ children }) => {
+  function rotateComponentsByMonth() {
+    const numChildren = React.Children.count(children);
+    const monthIndex = new Date().getMonth();
+    const childIndex = monthIndex % numChildren;
+    console.log(childIndex);
+    return children[childIndex];
+  }
+  return <div>{rotateComponentsByMonth()}</div>;
 };
 
 export default MonthlyTopics;

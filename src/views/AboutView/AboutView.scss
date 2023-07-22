@@ -1,0 +1,6 @@
+@import "../../sass/styles.scss";
+
+.about-view__profiles {
+  @include v-stack;
+  gap: $gap-xxl;
+}
