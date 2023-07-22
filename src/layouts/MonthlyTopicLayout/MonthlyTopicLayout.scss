@@ -27,6 +27,6 @@
   .monthly-topic-layout__footer {
     @include v-stack;
     gap: $gap-xl;
-    align-items: end;
+    align-items: flex-end;
   }
 }
