@@ -1,12 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import MainView from "./views/MainView/MainView";
 import AboutView from "./views/AboutView/AboutView";
-import LocationView from "./views/LocationView/LocationView";
 import ContactView from "./views/ContactView/ContactView";
 import BePainFreeView from "./views/BePainFree/BePainFreeView";
-import ServicesView from "./views/ServicesView/ServicesView";
 import NavBar from "./components/NavBar";
 import "./App.scss";
+import MassageTherapyView from "./views/MassageTherapyView/MassageTherapyView";
 
 export default function App() {
   const routes = [
@@ -17,16 +16,10 @@ export default function App() {
       icon: "material-symbols:home",
     },
     {
-      label: "about",
+      label: "about us",
       path: "/about",
       element: <AboutView />,
       icon: "mdi:about",
-    },
-    {
-      label: "location",
-      path: "/location",
-      element: <LocationView />,
-      icon: "material-symbols:location-on",
     },
     {
       label: "contact",
@@ -35,16 +28,16 @@ export default function App() {
       icon: "material-symbols:contact-emergency-rounded",
     },
     {
+      label: "massage therapy",
+      path: "/massage-therapy",
+      element: <MassageTherapyView />,
+      icon: "tabler:massage",
+    },
+    {
       label: "be pain free",
       path: "/pain-free",
       element: <BePainFreeView />,
       icon: "ri:mental-health-fill",
-    },
-    {
-      label: "services",
-      path: "/services",
-      element: <ServicesView />,
-      icon: "material-symbols:design-services",
     },
   ];
   return (

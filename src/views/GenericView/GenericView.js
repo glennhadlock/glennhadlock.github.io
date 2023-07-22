@@ -1,7 +1,10 @@
 import "./GenericView.scss";
 
 export default function GenericView(props) {
-  const { children, title, banner, ...rest } = { banner: "https://images.pexels.com/photos/5473215/pexels-photo-5473215.jpeg", ...props };
+  const { children, title, banner, ...rest } = {
+    banner: "https://images.pexels.com/photos/415368/pexels-photo-415368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    ...props,
+  };
   return (
     <div className="generic-view" {...rest}>
       <div className="banner">

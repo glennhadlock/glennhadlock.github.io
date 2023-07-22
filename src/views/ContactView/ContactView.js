@@ -26,6 +26,12 @@ export default function ContactView() {
           </tr>
         </tbody>
       </table>
+      <br />
+      <h3>Please stop by our location!</h3>
+      <p>5664 Bee Ridge Road, Suite 102 Sarasota, FL 34233</p>
+      <br />
+      <p>Located at RIDGEGATE MEDICAL CENTER</p>
+      <br />
       <GMap />
     </GenericView>
   );

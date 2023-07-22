@@ -9,9 +9,10 @@
   --bg1trans: #f7f7f730;
   --bg2: #efefef;
   --bg2trans: #efefeff8;
-  --bg3: #dedede;
-  --bg4: #cfcfcf;
-  --border: #374654;
+  --bg3: #7dbd7a;
+  --bg4: #91af98;
+  --border: #184b2c;
+
   --outline: #87c5ff;
   --txt: #313131;
   --txt: #f8f8f8;
@@ -25,21 +26,6 @@
   --bg-sel: #d8d8d8;
   --inactive: #6b6b6b;
   --glow: #fff4a377;
-
-  --null-status: #d16767;
-  --initial-status: var(--highlight);
-  --transitional-status: #446aa3;
-  --terminal-status: #61ca80;
-
-  --bg1: #f7f7f7;
-  --mask-dark: #00000033;
-  --mask-light: #00000099;
-  --bg1trans: #f7f7f730;
-  --bg2: #efefef;
-  --bg2trans: #efefeff8;
-  --bg3: #7dbd7a;
-  --bg4: #91af98;
-  --border: #184b2c;
 }
 
 /* fonts */
@@ -73,6 +59,7 @@ $border-xl: 10px;
 
 $radius-sm: 2.5px;
 $radius-md: 5px;
+$radius-lg: 10px;
 
 $grow: 1.025;
 

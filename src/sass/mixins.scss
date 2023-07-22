@@ -195,8 +195,8 @@
   border: $size solid $color;
 }
 
-@mixin round {
-  border-radius: $radius-md;
+@mixin round($size: $radius-lg) {
+  border-radius: $size;
 }
 
 @mixin round-border($args...) {
