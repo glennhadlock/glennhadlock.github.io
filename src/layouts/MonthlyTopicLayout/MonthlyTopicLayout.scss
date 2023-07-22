@@ -2,6 +2,10 @@
 
 .monthly-topic-layout {
   @include v-stack;
+  @include vh-pad($gap-lg, $gap-xxl);
+  @include round;
+  @include box-shadow;
+  background-color: var(--bg3);
   gap: $txt-ml;
   .monthly-topic-layout__header {
     @include v-stack-c;
@@ -12,7 +16,12 @@
       text-align: center;
     }
     .monthly-topic-layout__header__prefix {
+      @include h-stack-c;
       text-transform: capitalize;
+      .monthly-topic-layout__header__prefix__icon {
+        @include r-pad;
+        font-size: $txt-xl;
+      }
     }
     .monthly-topic-layout__header__title {
       font-weight: bold;

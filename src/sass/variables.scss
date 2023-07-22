@@ -3,14 +3,14 @@
 /* palette */
 
 :root {
-  --bg1: #f7f7f7;
+  --bg1: hsl(36, 17%, 92%);
+  --bg2: hsl(36, 17%, 90%);
+  --bg3: hsl(36, 17%, 88%);
+  --bg4: hsl(36, 17%, 86%);
   --mask-dark: #00000033;
   --mask-light: #00000099;
   --bg1trans: #f7f7f730;
-  --bg2: #efefef;
   --bg2trans: #efefeff8;
-  --bg3: #7dbd7a;
-  --bg4: #91af98;
   --border: #184b2c;
   --outline: #87c5ff;
   --txt: #313131;
@@ -20,7 +20,7 @@
   --primary: #0b3a18;
   --primary2: #144633;
   --secondary: #421f58;
-  --secondary2: #542174;
+  --secondary2: #5d2b7c;
   --primary-gradient: linear-gradient(90deg, var(--primary) 0%, var(--primary2) 60%, var(--primary2) 100%);
   --secondary-gradient: linear-gradient(90deg, var(--secondary)  var(--secondary2) 60%, var(--secondary2) 100%);
   --mixed-gradient: linear-gradient(90deg, var(--primary) 0%, var(--primary2) 60%, var(--secondary2) 90%, var(--secondary) 100%);

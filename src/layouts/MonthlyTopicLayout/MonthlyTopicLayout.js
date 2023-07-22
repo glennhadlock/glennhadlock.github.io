@@ -1,3 +1,4 @@
+import { Icon } from "@iconify/react";
 import "./MonthlyTopicLayout.scss";
 import React from "react";
 
@@ -7,7 +8,10 @@ const MonthlyTopicLayout = ({ children, title }) => {
   return (
     <div className="monthly-topic-layout">
       <div className="monthly-topic-layout__header">
-        <h1 className="monthly-topic-layout__header__prefix">tip of the month ({months[new Date().getMonth() % 12]}):</h1>
+        <h1 className="monthly-topic-layout__header__prefix">
+          <Icon className="monthly-topic-layout__header__prefix__icon" icon="icons8:idea" />
+          tip of the month ({months[new Date().getMonth() % 12]}):
+        </h1>
         <h2 className="monthly-topic-layout__header__title">{`${title}`.toLowerCase()}</h2>
       </div>
       <div className="monthly-topic-layout__content">{children}</div>

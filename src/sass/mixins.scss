@@ -272,3 +272,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@mixin box-shadow {
+  box-shadow: 2px 2px 2px #00000044;
+}

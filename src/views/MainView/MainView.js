@@ -19,7 +19,7 @@ export default function MainView() {
       <p>Call for available appointments including Saturdays.</p>
       <br />
       <h2>
-        Contact Dr. Hadlock Today! <b>at (941) 925-1517</b>
+        Contact Dr. Hadlock Today! at <b>(941) 925-1517</b>
       </h2>
     </GenericView>
   );
