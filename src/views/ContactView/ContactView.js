@@ -13,6 +13,14 @@ export default function ContactView() {
             </td>
           </tr>
           <tr>
+            <td>Email</td>
+            <td>
+              <a href="mailto:drglennhadlock@gmail.com">
+                <b>drglennhadlock@gmail.com</b>
+              </a>
+            </td>
+          </tr>
+          <tr>
             <td>Address</td>
             <td>
               <b>5664 Bee Ridge Road, Suite 102 Sarasota, FL 34233</b>
