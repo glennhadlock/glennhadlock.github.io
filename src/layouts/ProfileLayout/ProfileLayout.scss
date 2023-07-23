@@ -23,7 +23,7 @@
     @include h-pad($gap-xxl);
     gap: $gap-lg;
     .portrait-layout__text__header {
-      @include h-stack-c;
+      text-align: center;
       justify-content: center;
       .portrait-layout__text__header__name {
         @include text-gradient;

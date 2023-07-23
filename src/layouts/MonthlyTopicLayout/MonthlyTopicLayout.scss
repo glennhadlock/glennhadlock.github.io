@@ -3,6 +3,7 @@
 .monthly-topic-layout {
   @include v-stack;
   @include vh-pad($gap-lg, $gap-xxl);
+  @include h-mar($gap-ml);
   @include round;
   @include box-shadow;
   background-color: var(--bg3);
