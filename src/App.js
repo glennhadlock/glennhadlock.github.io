@@ -25,7 +25,7 @@ export default function App() {
       label: "contact",
       path: "/contact",
       element: <ContactView />,
-      icon: "material-symbols:contact-emergency-rounded",
+      icon: "solar:phone-bold",
     },
     {
       label: "massage therapy",
