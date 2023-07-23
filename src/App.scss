@@ -14,7 +14,6 @@
     @include stack;
     @include pad($gap-xl);
     @include to-bottom;
-    clip-path: polygon(0 0, 100% 30px, 100% 100%, 0 100%);
     align-items: center;
     flex-wrap: wrap;
     min-height: 150px;
