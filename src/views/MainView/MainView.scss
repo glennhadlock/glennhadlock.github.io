@@ -24,5 +24,6 @@
   .main-view__blockquote {
     font-size: $txt-lg;
     font-style: italic;
+    @include text-gradient(var(--primary), var(--secondary2));
   }
 }
