@@ -178,12 +178,12 @@
   &,
   * {
     @include trans;
-    color: var(--primary2);
+    color: var(--primary);
   }
   &:hover,
   &:hover * {
     @include trans;
-    color: var(--highlight);
+    color: var(--secondary);
   }
 }
 @mixin link {
