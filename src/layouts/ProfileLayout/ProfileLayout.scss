@@ -41,7 +41,7 @@
       @include v-stack;
       gap: $gap-lg;
       b {
-        color: var(--secondary2);
+        color: var(--highlight);
         font-weight: bold;
       }
     }
