@@ -24,4 +24,15 @@
     letter-spacing: $gap-sm;
     text-transform: lowercase;
   }
+  .massage-therapy-view__link {
+    @include vh-pad($gap-md, $gap-xl);
+    @include round;
+    width: fit-content;
+    color: var(--bg1);
+    @include h-center;
+    background-color: var(--primary);
+    &:hover {
+      background-color: var(--secondary2);
+    }
+  }
 }

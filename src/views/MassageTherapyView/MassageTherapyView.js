@@ -37,7 +37,14 @@ const MassageTherapyView = () => {
       <p>Allison Hadlock, LMT </p>
       <p>Text me directly at 941-867-0683</p>
       <p>Follow me on Facebook and Instagram! </p>
-      <a href="https://linktr.ee/twinstarsmassagetherapy?utm_source=linktree_profile_share&ltsid=e41c0227-f27a-4c42-9fa3-1b52119c20a3">Links</a>
+      <a
+        className="massage-therapy-view__link"
+        target="blank_"
+        rel="noreferrer"
+        href="https://linktr.ee/twinstarsmassagetherapy?utm_source=linktree_profile_share&ltsid=e41c0227-f27a-4c42-9fa3-1b52119c20a3"
+      >
+        Links
+      </a>
     </GenericView>
   );
 };

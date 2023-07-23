@@ -22,7 +22,7 @@
   --secondary: #421f58;
   --secondary2: #5d2b7c;
   --primary-gradient: linear-gradient(90deg, var(--primary) 0%, var(--primary2) 60%, var(--primary2) 100%);
-  --secondary-gradient: linear-gradient(90deg, var(--secondary)  var(--secondary2) 60%, var(--secondary2) 100%);
+  --secondary-gradient: linear-gradient(90deg, var(--secondary) 0%,  var(--secondary2) 60%, var(--secondary2) 100%);
   --mixed-gradient: linear-gradient(90deg, var(--primary) 0%, var(--primary2) 60%, var(--secondary2) 90%, var(--secondary) 100%);
   --highlight: #774395;
   --danger: #e55454;
