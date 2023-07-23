@@ -29,15 +29,15 @@ const BackAndRibPainTopic = () => {
   return (
     <MonthlyTopicLayout title="MID BACK AND RIB PAIN">
       <p>
-        The 'mid back' is technically the 'thoracic' region which starts at the base of the neck and continues down to the very bottom of the rib cage
-        (twelve spinal bones below). Thoracic area pain can involve the thoracic spine, muscles of the mid back, muscles or bones in the shoulder
+        The 'mid back' is technically the <i>thoracic</i> region which starts at the base of the neck and continues down to the very bottom of the rib
+        cage (twelve spinal bones below). Thoracic area pain can involve the thoracic spine, muscles of the mid back, muscles or bones in the shoulder
         girdle, rib articulations with the spine or even a referred pain from an internal organ. So, while mid back pain may seem to be a simple
         diagnosis, it is very important to first determine the origin of the pain before embarking on any treatment protocol. Once determined, a
         decision can be made about the next step to take.
       </p>
       <p>
-        I often have a patient say: “Doc, I threw a rib out!” They are often partially right! What generally has happened: the spot where the end of
-        the rib (rib head) connects to the spine has either become slightly displaced or it might simply have become 'stuck.' In any case, an
+        I often have a patient say: <i>Doc, I threw a rib out!</i>, they are often partially right! What generally has happened: the spot where the
+        end of the rib (rib head) connects to the spine has either become slightly displaced or it might simply have become 'stuck.' In any case, an
         appropriately delivered manipulation of that joint may either realign or free-up the joint respectively. Rib head misalignments or
         'subluxations' can result in a number of different presenting symptoms that can mimic other conditions, including a variety of visceral
         (internal organs) pains. If I determine there is a 'rib fixation' or 'rib subluxation,' there are several different 'adjustment' or
@@ -52,12 +52,12 @@ const HeadachesTopic = () => {
     <MonthlyTopicLayout title="HEADACHES">
       <p>
         Everyone knows when they have a headache. But the type of headache and its cause or origin are often poorly understood. While this general
-        symptom of “headache” is common, an accurate diagnosis of the type of headache is important to match a proper treatment protocol to eliminate
-        or reduce these headaches. The term “migraine headache" is loosely used by many when, in fact, you might be simply experiencing a severe
-        headache that could be better described with a proper diagnosis. Interestingly, a very high percentage of headaches are “cervicogenic,”
+        symptom of <i>headache</i> is common, an accurate diagnosis of the type of headache is important to match a proper treatment protocol to
+        eliminate or reduce these headaches. The term “migraine headache" is loosely used by many when, in fact, you might be simply experiencing a
+        severe headache that could be better described with a proper diagnosis. Interestingly, a very high percentage of headaches are “cervicogenic,”
         meaning that the origin of the pain has started in the neck. A poignant example is when tightening of the muscles in the neck which are
-        attached to the back of the head, pull enough to cause pain in scalp muscles – resulting in a headache. “Spinal adjustments,” massage, or a
-        combination of both may be an effective treatment approach in this type of headache.
+        attached to the back of the head, pull enough to cause pain in scalp muscles – resulting in a headache. <i>Spinal adjustments,</i> massage, or
+        a combination of both may be an effective treatment approach in this type of headache.
       </p>
       <p>
         The most important thing to start with is a proper diagnosis. Beginning with an evaluation by a skilled and experienced Doctor of Chiropractic
@@ -75,7 +75,7 @@ const NeckPainTopic = () => {
         muscle or tendon strain, a ligament sprain, or direct nerve impingement resulting in sharp, dull, achy or burning pain. When I’m trying to
         find the cause of a patient’s neck pain, I first determine the origin of the pain which can produce clues as to how best to reduce or
         eliminate the pain. In the case of a simple muscle strain, massage may be the best approach. Most scenarios however, are a bit more complex –
-        revealing a combination of direct nerve impingement accompanied by muscular symptoms. A treatment known as a “spinal adjustment” may be
+        revealing a combination of direct nerve impingement accompanied by muscular symptoms. A treatment known as a <i>spinal adjustment</i> may be
         employed to free up stuck spinal vertebrae which are causing nerve interference. When these “subluxations” (misaligned and/or stuck vertebra
         which impinge a nerve, disrupting the electrical signal from flowing properly) are eliminated, pain will likely subside or go away entirely.
         In some cases, a combination of “spinal adjustments” and massage complement one another well by addressing both the impinged (pinched) nerve
