@@ -2,7 +2,7 @@
 
 .main-view {
   .main-view__image-container {
-    max-width: 600px;
+    // max-width: 600px;
     width: fit-content;
     @include b-pad($gap-xl);
     @include v-stack-c;

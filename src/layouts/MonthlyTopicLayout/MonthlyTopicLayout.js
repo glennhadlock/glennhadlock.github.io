@@ -17,7 +17,9 @@ const MonthlyTopicLayout = ({ children, title }) => {
       <div className="monthly-topic-layout__content">{children}</div>
       <div className="monthly-topic-layout__footer">
         <p>Yours in good health,</p>
-        <p>Dr. Glenn Hadlock</p>
+        <p>
+          <b>Dr. Glenn Hadlock</b>
+        </p>
       </div>
     </div>
   );
