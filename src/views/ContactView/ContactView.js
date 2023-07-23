@@ -3,7 +3,7 @@ import GMap from "../../components/GMap";
 export default function ContactView() {
   return (
     <GenericView title="contact us" banner="https://images.pexels.com/photos/4506078/pexels-photo-4506078.jpeg">
-      <p>Glenn A. Hadlock, D.C. - Chriopractic Physician</p>
+      <p>Glenn A. Hadlock, D.C. - Chiropractic Physician</p>
       <table>
         <tbody>
           <tr>
