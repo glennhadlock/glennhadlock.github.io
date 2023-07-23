@@ -50,7 +50,7 @@ export default function App() {
       </Routes>
       <footer className="footer">
         <span>
-          © 2022&nbsp;
+          © {new Date().getFullYear()}&nbsp;
           <a href="https://distecsa.com" className="link" target="_blank" rel="noreferrer">
             Glenn A. Hadlock, D.C.
           </a>
