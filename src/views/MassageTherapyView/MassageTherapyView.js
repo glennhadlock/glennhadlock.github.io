@@ -17,26 +17,38 @@ const MassageTherapyView = () => {
         The body loves movement, that's why we feel so good when we exercise! Movement is what keeps our body in flow... from the flow of blood and
         lymph nourishing and flushing our system, to the unsticking of our fascia and releasing of tight muscles for pain relief and greater range of
         motion, to getting our neurons firing in new pathways and our happy hormones boosting! Movement assists the body in its never-ending journey
-        of maintaining homeostasis, the internal balance and optimal flow where our bodies want to be!{" "}
+        of maintaining homeostasis, the internal balance and optimal flow where our bodies want to be!
       </p>
       <p>
         The body, of course, also needs rest on our homeostasis quest. As a massage therapist, I offer a relaxation experience that allows your body
-        to pause and sink deeply into its “rest, digest, and restore” state…while I provide that beneficial movement your body loves so much by
-        pushing on your muscles!{" "}
+        to pause and sink deeply into its <i>rest, digest, and restore</i> state... while I provide that beneficial movement your body loves so much
+        by pushing on your muscles!
       </p>
       <p>
-        To me, “movement in stillness” is where massage lives and what massage essentially is – you bring the stillness and I bring you the movement.{" "}
+        To me, <i>movement in stillness</i> is where massage lives and what massage essentially is – you bring the stillness and I bring you the
+        movement.
       </p>
       <LazyLoadImage className="massage-therapy-view__card" src={getMedia("twin-stars-square.jpg")} />
       <p>
         Massage is a practice that assists the body to holistic wellness...I hope to serve you on your wellness journey. I am so thankful to be able
         to serve and to offer...
       </p>
-      <p>massage therapy</p>
+      <p className="massage-therapy-view__motto">
+        <b>massage therapy</b>
+      </p>
       to calm the nervous system facilitate healing and promote wellness for all people
-      <p>Allison Hadlock, LMT </p>
+      <p className="massage-therapy-view__name">Allison Hadlock, LMT </p>
       <p>Text me directly at 941-867-0683</p>
-      <p>Follow me on Facebook and Instagram! </p>
+      <p>
+        Follow me on&nbsp;
+        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/people/Twin-Stars-Massage-Therapy/100090435730195/">
+          Facebook
+        </a>
+        &nbsp; and&nbsp;
+        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/twinstarsmassagetherapy/">
+          Instagram!
+        </a>
+      </p>
       <a
         className="massage-therapy-view__link"
         target="blank_"

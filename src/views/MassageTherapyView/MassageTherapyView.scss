@@ -18,11 +18,14 @@
     @include stack;
     @include text-gradient(var(--secondary2), var(--secondary));
     text-shadow: 0px 0px 2px #0aa5ff69;
-    font-size: $txt-lg;
     width: 100%;
     justify-content: center;
     letter-spacing: $gap-sm;
     text-transform: lowercase;
+    &,
+    * {
+      font-size: $txt-lg;
+    }
   }
   .massage-therapy-view__link {
     @include vh-pad($gap-md, $gap-xl);
@@ -34,5 +37,9 @@
     &:hover {
       background-color: var(--secondary2);
     }
+  }
+  .massage-therapy-view__name {
+    @include v-pad($gap-xl);
+    text-align: right;
   }
 }
